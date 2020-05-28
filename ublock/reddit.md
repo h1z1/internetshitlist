@@ -110,4 +110,14 @@ reddit.com##div[data-permalink*="Mitch Jones"],important
 reddit.com## .unvoted.entry > .top-matter > .tagline > span:contains(Cmac0801)
 reddit.com## .unvoted.entry > .top-matter > .tagline > span:contains(baekovsky1812)
 
+! Block post by sub (cleans up r/all)
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/cock):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/Sissies):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/GaySnapchat):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/sissydressing):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/Sissy_hot):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/Cock):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/MassiveCock):nth-ancestor(4),important
+reddit.com## .unvoted.entry > .top-matter > .big-tagline.tagline > .may-blank.hover.subreddit:contains(r/onlyfanspromo):nth-ancestor(4),important
+
 !!! - Reddit
