@@ -84,3 +84,93 @@ No where near the servers connected
 |zettel.freenode.net | [Tor] | Tor |
 
 
+UPDATE:  Freenode drama has caused the network as a whole to split.  As such serveral "staff" of Freenode have annouced their "resignations".  Not sure how that is possible given they were never employed to begin with.
+
+Examples:
+
+https://gist.github.com/aaronmdjones/1a9a93ded5b7d162c3f58bdd66b8f491
+
+
+Noteworthy disclosure:
+
+> Before September 2020, the development effort was being spent on upstream
+> Charybdis instead, since at least December 2019 (see [8] through [41] for
+> details, inclusive), with edk (head of our development team) doing almost
+> all of the work. The intention was that freenode would be migrating to
+> Charydis when it was ready. That plan fell apart because of unrelated
+> drama, and Charybdis was forked (again) at that point.
+>   
+> The work being done on Charybdis, and Solanum since, was in an effort to
+> make the network easier to administer, and allow for the implementation
+> of new IRCv3 features, such as message IDs (necessary for message
+> editing and deletion) and BRB/RESUME support.
+   
+   
+That is not IRC, it's a continuation of the bastard stepchild known as Slack and should never be accepted.  IRC is ephemeral by design.
+
+
+Current Freenode server list includes 45.58.138.170 which as of this update does not resolve to anything but believed to be a test server known as tildes.freenode.net.  In production.
+
+Server is hosted out of the UK by Chineese company known as Sharktech
+
+```
+route:      45.58.128.0/18
+descr:      Sharktech Inc.
+origin:     AS46844
+mnt-by:     MAINT-AS46844
+changed:    timt@sharktech.net 20170821  #23:49:34Z
+source:     RADB
+
+route:          45.58.128.0/18
+descr:          Sharktech Inc.
+origin:         AS46844
+mnt-by:         MNT-SHARK-7
+changed:        timt@sharktech.net  20150317
+source:         ARIN
+```
+
+   Name Server: NS1.SHARKTECH.NET
+   Name Server: NS2.SHARKTECH.NET
+
+
+```
+$ host sharktech.net
+sharktech.net has address 170.178.191.84
+sharktech.net mail is handled by 10 chi-pmg.sharktech.net.
+
+$ whois 170.178.191.1
+route:      170.178.191.0/24
+descr:      CMI  (Customer Route)
+origin:     AS46844
+mnt-by:     MAINT-AS58453
+changed:    qas_support@cmi.chinamobile.com 20180502
+source:     RADB
+
+route:      170.178.191.0/24
+descr:      CMI IP Transit
+origin:     AS46844
+admin-c:    MAINT-CMI-INT-HK
+tech-c:     MAINT-CMI-INT-HK
+mnt-by:     MAINT-CMI-INT-HK
+changed:    qas_support@cmi.chinamobile.com 20180503
+source:     NTTCOM
+
+route:          170.178.160.0/19
+descr:          Sharktech Inc.
+origin:         AS46844
+mnt-by:         MNT-SHARK-7
+changed:        timt@sharktech.net  20150317
+source:         ARIN
+
+mntner:         MAINT-CMI-INT-HK
+descr:          China Mobile International Limited
+country:        HK
+admin-c:        CMIL1-AP
+upd-to:         qas_support@cmi.chinamobile.com
+auth:           # Filtered
+mnt-by:         MAINT-CMI-INT-HK
+referral-by:    APNIC-HM
+last-modified:  2017-11-22T09:00:43Z
+source:         APNIC
+```
+
