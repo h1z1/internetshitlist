@@ -3,7 +3,12 @@ CBC (Canadian Broadcasting Corporation)
 
 Long overdue this site got reeeled in.  The amount of tracking on it is retarded for being a national broadcaster
 
-It changed post covid.  They take an extremely agressive posture against the public.
+Dec 10 2021 -  Update: CBC has once again changed their site.   It is physically exhausting trying to track how much garbage they've loaded onto it.  What started out as following a single company turned into shell companies and LLC's linked back to Sorros funding.  Chatham Asset Management LLC is a _facinating_ trail of blood.. er money to follow.   
+
+They still take an extremely agressive posture against the public.  Main homepage is a massive 2MB without media and without external libraries.  That is just the index.  Much of that is a cluster fuck of json.
+
+ While I'm glad they've turned it into less of a giant pile of Mooseshit, it still remains a sad example of media in Canada.
+
 
 uMatrix is technically "deprecated" though still preferred..
 
@@ -70,6 +75,9 @@ www.cbc.ca z.moatads.com * block
 ||www.cbc.ca/ads/*$script,1p
 ||uie.data.cbc.ca^$xhr,1p
 www.cbc.ca##.privacyNotification
+
+!-- evil  .. ex https://www.cbc.ca/akam/11/pixel_113*
+||www.cbc.ca/akam/*
 
 ! ||ups.data.cbc.ca/v0/UIEUser//UPSPreferences/xxxxx$xhr,domain=www.cbc.ca,important
 ||ups.data.cbc.ca/v0/UIEUser$xhr,domain=www.cbc.ca,important
