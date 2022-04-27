@@ -33,7 +33,7 @@ source:     RADB
 
 Duckduckgo.com was registered through GoDaddy, a company notorious for being anti-privacy (especially wrt SSL certificates).
 
-Their DNS is also hosted by yet another third party - "NS1".  A company focused more on profit and analytics then anything remotely privacy related.
+Their DNS is also hosted by yet another third party - "NS1".  A company focused more on profit and analytics than anything remotely privacy related.
 
 Among their "Executive" team:
    ```
