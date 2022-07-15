@@ -24,3 +24,10 @@ There is no verification on the data received rather it's existance in the repo.
 
 That is not something you want in your password vault.
 
+
+You can't make this shit up kids... Safe to say Keepass has been hijacked.
+
+Remove offensive words from wordlist #6914
+    https://github.com/keepassxreboot/keepassxc/pull/6914/files/23b9e35de9a605bd9f6c6ea90e39a3ef9a55761f
+    
+    
